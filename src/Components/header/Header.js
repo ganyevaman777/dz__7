@@ -14,6 +14,12 @@ function Header() {
                 <li>
                     <NavLink className={classes.link} to="/input">InputPage</NavLink>
                 </li>
+                <li>
+                    <NavLink className={classes.link} to="/new">NewPage</NavLink>
+                </li>
+                <li>
+                    <NavLink className={classes.link} to="/request">RequestPage</NavLink>
+                </li>
             </ul>
         </div>
     );

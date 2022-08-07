@@ -9,10 +9,16 @@ function Footer() {
         <div className={classes.content}>
             <ul>
                 <li>
-                    <NavLink className={classes.link} to="/new">NewPage</NavLink>
+                    <NavLink className={classes.link} to="/contact">ContactPage</NavLink>
                 </li>
                 <li>
-                    <NavLink className={classes.link} to="/request">RequestPage</NavLink>
+                    <NavLink className={classes.link} to="/count">CountPage</NavLink>
+                </li>
+                <li>
+                    <NavLink className={classes.link} to="/main">MainPage</NavLink>
+                </li>
+                <li>
+                    <NavLink className={classes.link} to="/user">UserPage</NavLink>
                 </li>
             </ul>
         </div>

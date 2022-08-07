@@ -6,6 +6,10 @@ import NewPage from "./Pages/newPage/NewPage";
 import RequestPage from "./Pages/requestPage/RequestPage";
 import Header from "./Components/header/Header";
 import Footer from "./Components/footer/Footer";
+import ContactPage from "./Pages/contactPage/ContactPage";
+import CountPage from "./Pages/countPage/CountPage";
+import MainPage from "./Pages/mainPage/MainPage";
+import UserPage from "./Pages/userPage/userPage";
 
 
 
@@ -19,6 +23,10 @@ function App() {
                   <Route path="/input" element={<InputPage/>}/>
                   <Route path="/new" element={<NewPage/>}/>
                   <Route path="/request" element={<RequestPage/>}/>
+                  <Route path="/contact" element={<ContactPage/>}/>
+                  <Route path="/count" element={<CountPage/>}/>
+                  <Route path="/main" element={<MainPage/>}/>
+                  <Route path="/user" element={<UserPage/>}/>
               </Routes>
               <Footer/>
           </div>
