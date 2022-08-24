@@ -9,16 +9,10 @@ function Header() {
         <div className={classes.content}>
             <ul>
                 <li>
-                    <NavLink className={classes.link} to="/">ButtonPage</NavLink>
+                    <NavLink className={classes.link} to="/">BasketList</NavLink>
                 </li>
                 <li>
-                    <NavLink className={classes.link} to="/input">InputPage</NavLink>
-                </li>
-                <li>
-                    <NavLink className={classes.link} to="/new">NewPage</NavLink>
-                </li>
-                <li>
-                    <NavLink className={classes.link} to="/request">RequestPage</NavLink>
+                    <NavLink className={classes.link} to="/about">About</NavLink>
                 </li>
             </ul>
         </div>
